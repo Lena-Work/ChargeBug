@@ -1,5 +1,3 @@
-// app/components/CalendarStrip.tsx
-
 "use client";
 
 import { FC } from "react";
@@ -53,5 +51,6 @@ const CalendarStrip: FC<CalendarStripProps> = ({ days }) => {
     </div>
   );
 };
+
 
 export default CalendarStrip;
