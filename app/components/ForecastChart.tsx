@@ -22,7 +22,7 @@ ChartJS.register(
   PointElement
 );
 
-import { Chart } from "react-chartjs-2";
+
 import { Bar } from "react-chartjs-2";
 import { ForecastChartData } from "../types/weis";
 
@@ -213,7 +213,7 @@ const ForecastChart: FC<ForecastChartProps> = ({ data, calendarWidthPx }) => {
 
   return (
     <div style={style}>
-      <Chart ref={chartRef} type="bar" data={chartData} options={options} />
+      <Bar ref={chartRef} type="bar" data={chartData} options={options} />
     </div>
   );
 };
