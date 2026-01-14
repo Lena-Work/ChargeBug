@@ -5,7 +5,7 @@
 import { useEffect, useMemo, useState } from "react";
 import ForecastChart from "./components/ForecastChart";
 import CalendarStrip from "./components/CalendarStrip";
-import { ProcessedWeisResponse } from "./app/types/weis";
+import { ProcessedWeisResponse } from "./types/weis";
 
 export default function HomePage() {
   const [data, setData] = useState<ProcessedWeisResponse | null>(null);
