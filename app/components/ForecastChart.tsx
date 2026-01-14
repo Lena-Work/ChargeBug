@@ -11,8 +11,6 @@ import {
   Legend,
   PointElement,
 } from "chart.js";
-import { Chart } from "react-chartjs-2";
-import { ForecastChartData } from "../types/weis";
 
 ChartJS.register(
   BarElement,
@@ -23,6 +21,10 @@ ChartJS.register(
   Legend,
   PointElement
 );
+
+import { Chart } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
+import { ForecastChartData } from "../types/weis";
 
 interface ForecastChartProps {
   data: ForecastChartData;
