@@ -12,7 +12,7 @@ import {
   PointElement,
 } from "chart.js";
 import { Chart } from "react-chartjs-2";
-import { ForecastChartData } from "../app/types/weis";
+import { ForecastChartData } from "../types/weis";
 
 ChartJS.register(
   BarElement,
